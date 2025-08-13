@@ -32,7 +32,7 @@ jobs:
       matrix:
         # TODO: The language array below is purposefully left blank. You will need to update it with the language or languages this repo contains before this action will succeed
         # Learn more about CodeQL language support at https://aka.ms/codeql-docs/language-support
-        language: ['csharp']
+        language: ['javascript']
 
     steps:
     - name: Checkout repository
